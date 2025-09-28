@@ -4,7 +4,10 @@ export default function Education({ education }) {
       <h2 className="mb-4 text-lg font-semibold">Education</h2>
       <div className="grid gap-4">
         {education.map((e, idx) => (
-          <article key={idx} className="rounded-xl border border-gray-200 bg-white p-4 dark:border-gray-700 dark:bg-slate-700">
+          <article
+            key={idx}
+            className="rounded-xl border border-gray-200 bg-white p-4 shadow-sm transition will-change-transform hover:-translate-y-0.5 hover:shadow-md dark:border-gray-700 dark:bg-slate-700"
+          >
             <div className="flex flex-col justify-between gap-2 sm:flex-row sm:items-center">
               <div>
                 <h3 className="text-base font-semibold">{e.institution}</h3>
