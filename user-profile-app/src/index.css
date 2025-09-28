@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+/* Optional: project-level utilities or CSS variables */
+:root {
+  --ring: 0 0% 0%;
+}
