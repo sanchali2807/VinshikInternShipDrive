@@ -15,6 +15,9 @@ export default function useTheme() {
     if (theme === 'dark') root.classList.add('dark')
     else root.classList.remove('dark')
     localStorage.setItem('theme', theme)
+    // Debug logs
+    // eslint-disable-next-line no-console
+    console.log('[useTheme] applied theme:', theme, 'html.classList:', document.documentElement.className)
   }, [theme])
 
   const toggleTheme = () => setTheme((t) => (t === 'dark' ? 'light' : 'dark'))
