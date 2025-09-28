@@ -1,59 +1,46 @@
 const resumeData = {
-  name: "Aarav Mehta",
-  title: "Frontend Engineer",
+  name: "Sandeep K",
+  title: "Frontend Developer",
   contact: {
-    email: "aarav.mehta@example.com",
-    phone: "+91 91234 56789",
-    linkedin: "linkedin.com/in/aarav-mehta",
-    github: "github.com/aaravmehta",
+    email: "sandeep@example.com",
+    phone: "+91 9876543210",
+    linkedin: "linkedin.com/in/sandeep",
+    github: "github.com/sandeep",
   },
   about:
-    "Frontend engineer focused on building accessible, performant interfaces with React, TypeScript, and modern CSS. I love design systems and clean, reusable components.",
-  skills: [
-    "React",
-    "TypeScript",
-    "JavaScript",
-    "HTML",
-    "CSS",
-    "Tailwind",
-    "Vite",
-    "Accessibility",
-  ],
+    "Full stack developer with expertise in Node.js, React, and cloud technologies.Passionate frontend developer with experience in React, JavaScript, and modern UI frameworks.",
+  skills: ["React", "JavaScript", "HTML", "CSS", "Tailwind"],
   experience: [
     {
-      company: "Zen Advisors",
-      role: "Frontend Engineer",
-      duration: "2024 - Present",
-      details:
-        "Leading the UI build for a client dashboard using React, Zustand, and Tailwind. Implemented reusable UI components and improved performance by code-splitting.",
+      company: "VinShik Technologies",
+      role: "Frontend Developer",
+      duration: "2023 - Present",
+      details: "Worked on React-based applications with API integration.",
     },
     {
-      company: "TechCraft Labs",
-      role: "Frontend Developer",
-      duration: "2022 - 2024",
-      details:
-        "Built responsive web apps with React and REST APIs. Collaborated with designers to implement design system tokens and patterns.",
+      company: "TechCorp",
+      role: "Web Developer",
+      duration: "2021 - 2023",
+      details: "Developed responsive websites using HTML, CSS, JS.",
     },
   ],
   education: [
     {
-      institution: "ABC Institute of Technology",
-      degree: "B.Tech in Information Technology",
-      year: "2022",
+      institution: "XYZ University",
+      degree: "B.Tech in Computer Science",
+      year: "2021",
     },
   ],
   projects: [
     {
-      title: "Design System Playground",
-      description:
-        "A component library playground demonstrating tokens, themes, and accessibility checks.",
-      tech: ["React", "Tailwind", "Vite"],
+      title: "Portfolio Website",
+      description: "Personal portfolio built with React & Tailwind.",
+      tech: ["React", "Tailwind"],
     },
     {
-      title: "Task Tracker",
-      description:
-        "A lightweight task tracker with offline support and local storage persistence.",
-      tech: ["React", "TypeScript"],
+      title: "Weather App",
+      description: "Live weather data app using OpenWeather API.",
+      tech: ["React", "API"],
     },
   ],
 };
