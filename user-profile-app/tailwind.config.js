@@ -41,9 +41,21 @@ export default {
           '0%': { opacity: 0, transform: 'translateY(4px)' },
           '100%': { opacity: 1, transform: 'translateY(0)' },
         },
+        floatY: {
+          '0%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-6px)' },
+          '100%': { transform: 'translateY(0)' },
+        },
+        floatYSubtle: {
+          '0%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-3px)' },
+          '100%': { transform: 'translateY(0)' },
+        },
       },
       animation: {
         fadeIn: 'fadeIn 400ms ease-out both',
+        'float-slow': 'floatY 6s ease-in-out infinite',
+        'float-subtle': 'floatYSubtle 8s ease-in-out infinite',
       },
     },
   },
